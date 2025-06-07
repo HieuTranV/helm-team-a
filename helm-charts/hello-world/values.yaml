@@ -1,0 +1,5 @@
+apps:
+  - name: hello-world
+    repoURL: https://github.com/HieuTranV/helm-team-a.git
+    path: helm-charts/hello-world
+    namespace: argocd

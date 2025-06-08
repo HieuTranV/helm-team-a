@@ -18,3 +18,10 @@ spec:
           image: ealen/echo-server
           ports:
             - containerPort: 80
+          volumnesMounts:
+            - name: nfs-volume
+              mountPath: /data
+      volumes:
+        - name: nfs-volume
+          persistentVolumeClaim:
+            claimName: {{ .Values.app.name }}-pvc

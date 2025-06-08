@@ -4,7 +4,7 @@ metadata:
   name: hello-world-ingress
   namespace: business-service
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/rewrite-target: /echo
 spec:
   ingressClassName: nginx
   rules:

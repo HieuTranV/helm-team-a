@@ -6,6 +6,7 @@ metadata:
   namespace: business-service
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /echo
+    argocd.argoproj.io/health: Skip
 spec:
   ingressClassName: nginx
   rules:

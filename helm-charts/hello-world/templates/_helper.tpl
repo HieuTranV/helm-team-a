@@ -1,7 +1,7 @@
 {{/*
 Return the full name of the chart release.
 If .Values.fullnameOverride is set, use that.
-Otherwise: <Release Name>-<Chart Name>
+Otherwise: <Release Name>
 */}}
 {{- define "hello-world.fullname" -}}
 {{- if .Values.fullnameOverride }}

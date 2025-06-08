@@ -1,0 +1,9 @@
+ingress:
+  enabled: true
+  host: hello2.local
+  path: /
+service:
+  port: 80
+
+app:
+  name: hello-world-v2

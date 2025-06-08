@@ -7,3 +7,4 @@ service:
 
 app:
   name: hello-world-v2
+  storageSize: 100Mi

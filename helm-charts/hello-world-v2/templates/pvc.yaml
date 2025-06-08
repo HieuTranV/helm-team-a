@@ -8,4 +8,4 @@ spec:
   storageClassName: nfs-sc
   resources:
     requests:
-      storage: 1Gi
+      storage: {{ .Values.app.storageSize }}

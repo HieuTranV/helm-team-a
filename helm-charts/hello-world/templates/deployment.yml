@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: echo
-          image: ealen/echo-server
+          image: hieutrv/img-log:0.0.1
           ports:
             - containerPort: 80

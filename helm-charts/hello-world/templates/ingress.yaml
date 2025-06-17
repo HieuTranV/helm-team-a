@@ -5,7 +5,7 @@ metadata:
   name: {{ include "hello-world.fullname" . }}-ingress
   namespace: business-service
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /echo
+    nginx.ingress.kubernetes.io/rewrite-target: /
     argocd.argoproj.io/health: Skip
 spec:
   ingressClassName: nginx

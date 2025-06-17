@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: echo
-          image: hieutrv/img-log:0.0.1
+          image: hieutrv/img-log:0.0.2
           ports:
             - containerPort: 80

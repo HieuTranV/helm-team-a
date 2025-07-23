@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-world
+  name: layer3
   namespace: business-service
 spec:
   replicas: 2

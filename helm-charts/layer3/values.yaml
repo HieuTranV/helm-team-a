@@ -1,6 +1,6 @@
 ingress:
   enabled: true
-  host: hello.local
+  host: layer3.local
   path: /
 service:
   port: 8080

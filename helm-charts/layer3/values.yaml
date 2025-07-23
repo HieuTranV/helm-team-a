@@ -1,0 +1,6 @@
+ingress:
+  enabled: true
+  host: hello.local
+  path: /
+service:
+  port: 8080

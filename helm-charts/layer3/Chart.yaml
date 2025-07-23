@@ -1,0 +1,4 @@
+apiVersion: v2
+name: layer3
+description: Helm chart to deploy a layer3 application
+version: 0.1.0

@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-world
+  namespace: business-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: layer3
+  template:
+    metadata:
+      labels:
+        app: layer3
+    spec:
+      containers:
+        - name: echo
+          image: hieutrv/app-layer3:0.0.1
+          ports:
+            - containerPort: 8080

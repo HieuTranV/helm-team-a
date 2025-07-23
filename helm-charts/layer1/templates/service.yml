@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: layer1
+  namespace: business-service
+spec:
+  selector:
+    app: layer1
+  ports:
+    - port: 8080
+      targetPort: 8080

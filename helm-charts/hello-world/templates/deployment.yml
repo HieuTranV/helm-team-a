@@ -4,7 +4,7 @@ metadata:
   name: hello-world
   namespace: business-service
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: hello-world

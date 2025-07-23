@@ -20,4 +20,4 @@ spec:
             - containerPort: 8080
           env:
             - name: BASE_URL
-              value: http://layer3
+              value: http://layer3:8080

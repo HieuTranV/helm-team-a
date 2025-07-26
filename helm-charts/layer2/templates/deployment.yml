@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: echo
-          image: hieutrv/app-layer2:0.0.1
+          image: hieutrv/app-layer2:0.0.3
           ports:
             - containerPort: 8080
           env:
